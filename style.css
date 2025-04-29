@@ -1,0 +1,46 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#heading{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2rem;
+}
+
+#container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+}
+
+.app-item{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    border: 1px solid grey;
+    border-radius: 5px;
+    width: 300px;
+    height: 200px;
+    background-color: rgb(240, 244, 248);
+}
+
+#btn-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+#votes-counter{
+    margin-top: 20px;
+
+}
+
+#vote-btn{
+    border-radius: 5px;
+
+}
