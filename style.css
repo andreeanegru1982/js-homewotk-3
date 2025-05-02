@@ -26,6 +26,7 @@ body{
     width: 300px;
     height: 200px;
     background-color: rgb(240, 244, 248);
+    font-size: 1.5rem;
 }
 
 #btn-container{
@@ -37,10 +38,10 @@ body{
 
 #votes-counter{
     margin-top: 20px;
-
+    font-size: 1.25rem;
 }
 
 #vote-btn{
     border-radius: 5px;
-
+    cursor: pointer;
 }
